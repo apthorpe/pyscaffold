@@ -33,6 +33,7 @@ gitlab = pyscaffold.extensions.gitlab_ci:GitLab
 django = pyscaffold.extensions.django:Django
 cookiecutter = pyscaffold.extensions.cookiecutter:Cookiecutter
 no_skeleton = pyscaffold.extensions.no_skeleton:NoSkeleton
+no_scm = pyscaffold.extensions.no_scm:NoSCM
 
 [setuptools.file_finders]
 setuptools_scm = pyscaffold.contrib.setuptools_scm.integration:find_files
